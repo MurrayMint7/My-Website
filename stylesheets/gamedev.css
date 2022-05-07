@@ -1,0 +1,88 @@
+.whitebox{
+  text-align: center;
+  background-color: white;
+  padding: 20%;
+  margin: 5%;
+}
+
+.whitebox h1{
+  color: #7501D9;
+  font-family: 'DM Serif Display', serif;
+}
+
+.whitebox h3{
+  font-family:'montserrat', sans-serif;
+}
+
+.whitebox p{
+  font-family:'montserrat', sans-serif;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 4%;
+  text-align: center;
+}
+
+.column2 h2{
+  font-family: 'DM Serif Display', serif;
+}
+
+.column2 p {
+  font-family:'montserrat', sans-serif;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+  color: white;
+  text-align: center;
+  padding: 3%;
+}
+
+.row2 h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+}
+
+.row3 {
+  background-color: white;
+  color: #7501D9;
+  text-align: center;
+  padding: 3%;
+}
+
+.row3 h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+img {
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+}
