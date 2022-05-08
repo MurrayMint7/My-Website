@@ -1,0 +1,89 @@
+.portfolio-title{
+  background-color: #7501D9;
+  font-family: 'DM Serif Display', serif;
+  font-size: 72px;
+}
+
+#box {
+    overflow-y: visible;
+    overflow-x: auto;
+    white-space: nowrap;
+    vertical-align: text-top;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    border-spacing: 15em .5em;
+}
+.item {
+    display: table-cell;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    white-space: normal;
+    line-height: 1.6;
+    vertical-align: top;
+    text-align: center;
+}
+
+.card-text-style{
+  width: 400px;
+  background-color: #1C1C1C;
+  font-family: 'montserrat', sans-serif;
+}
+
+.card-title{
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 5px
+}
+
+.btn{
+  color: white !important;
+  background-color: #7501D9;
+}
+
+
+.box-phone{
+  height: 40px;
+}
+
+.box-desktop{
+  width: 300px;
+  height: 100%;
+}
+
+.desktop {
+  display: block;
+  z-index: 1000;
+  position: absolute;
+  width: auto !important;
+  padding: 0px !important;
+
+}
+.mobile {
+  display: none;
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+.phone-navbar{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
+.desktop-navbar .nav-link{
+  display: block !important;
+  padding-top: 118px;
+  padding-bottom: 118px;
+}
