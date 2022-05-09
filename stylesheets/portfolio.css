@@ -2,6 +2,7 @@
   background-color: #7501D9;
   font-family: 'DM Serif Display', serif;
   font-size: 72px;
+  letter-spacing: 10px;
 }
 
 #box {
@@ -13,6 +14,7 @@
     padding: 0;
     clear: both;
     border-spacing: 15em .5em;
+    height: 513px;
 }
 .item {
     display: table-cell;
@@ -73,6 +75,9 @@
   .mobile {
     display: block;
   }
+  .portfolio-title{
+    letter-spacing: 5px;
+  }
 }
 
 .phone-navbar{
@@ -84,6 +89,7 @@
 
 .desktop-navbar .nav-link{
   display: block !important;
-  padding-top: 118px;
-  padding-bottom: 118px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 72px;
 }
