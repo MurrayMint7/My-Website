@@ -45,25 +45,11 @@
 }
 
 
-.box-phone{
-  height: 40px;
+.box{
+  height: 60px;
 }
 
-.box-desktop{
-  width: 300px;
-  height: 100%;
-}
-
-.desktop {
-  display: block;
-  z-index: 1000;
-  position: absolute;
-  width: auto !important;
-  padding: 0px !important;
-
-}
 .mobile {
-  display: none;
   padding: 0px !important;
 }
 
@@ -76,16 +62,24 @@
     display: block;
   }
   .portfolio-title{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 }
 
-.phone-navbar{
+.portfolio-navbar{
     margin-right: 25px;
     margin-left: 25px;
 }
 
+.portfolio-navbar .nav-link{
+    height: 60px;
+    font-size: 30px;
 
+}
+
+.free{
+  border-right: 5px white;
+}
 
 .desktop-navbar .nav-link{
   display: block !important;
