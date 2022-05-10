@@ -21,4 +21,5 @@ footer{
   color: white;
   background-color: black;
   text-align: center;
+  z-index: 1000;
 }
