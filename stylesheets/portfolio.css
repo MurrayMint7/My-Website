@@ -7,14 +7,12 @@
 
 #box {
     overflow-y: visible;
-    overflow-x: auto;
     white-space: nowrap;
     vertical-align: text-top;
     margin: 0;
     padding: 0;
     clear: both;
-    border-spacing: 15em .5em;
-    height: 513px;
+    border-spacing: 11em 5em;
 }
 .item {
     display: table-cell;
@@ -26,17 +24,46 @@
     line-height: 1.6;
     vertical-align: top;
     text-align: center;
+
+}
+
+.image{
+  transition: .2s;
+}
+
+.image:hover{
+  transform: scale(1.1);
+}
+.card{
+  border: none !important;
+}
+
+.card-body{
+  visibility: hidden;
+  transition-delay: 0s;
+}
+
+.div {
+    display: none;
+    border:1px solid #000;
+}
+
+
+.item:hover .card-body{
+  visibility: visible;
+  transition-delay: 0.2s;
 }
 
 .card-text-style{
-  width: 400px;
-  background-color: #1C1C1C;
+  width: auto;
+  background-color: #1C1C1C !important;
   font-family: 'montserrat', sans-serif;
 }
 
 .card-title{
   font-family: 'DM Serif Display', serif;
-  letter-spacing: 5px
+  letter-spacing: 5px;
+  margin-top: 5% !important;
 }
 
 .btn{
@@ -53,19 +80,6 @@
   padding: 0px !important;
 }
 
-@media screen and (max-width: 768px) {
-
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
-  .portfolio-title{
-    letter-spacing: 2px;
-  }
-}
-
 .portfolio-navbar{
     margin-right: 25px;
     margin-left: 25px;
@@ -74,7 +88,6 @@
 .portfolio-navbar .nav-link{
     height: 60px;
     font-size: 30px;
-
 }
 
 .free{
@@ -86,4 +99,61 @@
   padding-top: 75px;
   padding-bottom: 75px;
   font-size: 72px;
+}
+
+.row{
+  height: 600px;
+}
+
+.col{
+  padding: 2%;
+}
+
+.card-img{
+  margin: 5%;
+  height: auto !important;
+  width: auto !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .portfolio-title{
+    letter-spacing: 2px;
+  }
+
+  #box {
+      border-spacing: 5em 2em;
+  }
+
+  .item {
+      display: contents;
+      min-width: 300px;
+      height: 300px;
+      border-radius: 5px;
+      margin: 10px;
+      white-space: normal;
+      line-height: 1.6;
+      vertical-align: top;
+      text-align: center;
+  }
+
+  .card-text-style{
+    width: auto;
+    background-color: #1C1C1C !important;
+    font-family: 'montserrat', sans-serif;
+    padding: 10%;
+    margin: 0;
+  }
+
+  .desktop-navbar .nav-link{
+    display: block !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .row{
+    height: 400px;
+  }
 }
